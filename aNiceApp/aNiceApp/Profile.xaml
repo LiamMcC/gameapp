@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aNiceApp.Profile"
+             Title="Game Detail Page"
+             >
+    <StackLayout>
+        <StackLayout>
+
+            <Frame HeightRequest="280" BackgroundColor="Blue" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Grid>
+                    <StackLayout BackgroundColor="Black">
+
+                        <Image Source="game6.jfif" HeightRequest="350" Aspect="AspectFill"/>
+                    </StackLayout>
+
+
+                    <StackLayout>
+                        <Label Text="Game Mania" FontSize="60" FontAttributes="Bold" Margin="15,-10, -40, -100" VerticalOptions="CenterAndExpand" TextColor="Red"></Label>
+
+
+                        <StackLayout Orientation="Horizontal" Margin="45, -8, 0, 0">
+
+                            <Label Text="Ph: 01234567" TextColor="Red" FontSize="25" FontAttributes="Bold" VerticalOptions="EndAndExpand"></Label>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Grid>
+
+
+
+
+            </Frame>
+
+            <Frame HeightRequest="320" BorderColor="Red" BackgroundColor="AliceBlue" WidthRequest="180" Margin="30, 0, 30, 0" CornerRadius="10" >
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+
+
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+
+
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Text="Welcome Back"></Label>
+                    <Label x:Name="person" Grid.Row="1" Grid.Column="0" Text="Enable USB Debugging and Plug in the phone"></Label>
+                    <Button Text="Edit Profile" Clicked="EditProfileOpen" Grid.Row="2" Grid.Column="0"></Button>
+
+                    <Label Grid.Row="3" Grid.Column="0" x:Name="fave" Text="Favourite Game"></Label>
+
+                    <Button Text="GetImage" Clicked="pickOne" Grid.Row="4" Grid.Column="0"></Button>
+                    <Button Text="TakeImage" Clicked="takeOne" Grid.Row="5" Grid.Column="0"></Button>
+                    <Image x:Name="iGotIt" Grid.Row="6" Grid.Column="0"/>
+
+                </Grid>
+
+
+
+
+
+            </Frame>
+
+
+
+            <Frame HeightRequest="50" BorderColor="Red" BackgroundColor="AliceBlue" WidthRequest="180" Margin="30, 0, 30, 0" CornerRadius="10" >
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+
+
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+
+
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="icon1.png" Grid.Row="0" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="HomePageOpen" NumberOfTapsRequired="1"></TapGestureRecognizer>
+
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="icon2.png" Grid.Row="0" Grid.Column="1"></Image>
+                    <Image Source="icon3.png" Grid.Row="0" Grid.Column="2"></Image>
+                    <Image Source="icon4.png" Grid.Row="0" Grid.Column="3"></Image>
+
+                </Grid>
+
+            </Frame>
+
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
+
+            

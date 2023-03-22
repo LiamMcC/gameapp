@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "w8v7ZITSaNxOuquXR/1VB9Up46Vu1cQdpYAubupZ0DvUGnD7liX6rXNfMYARnD33wdVSRhIXf6p2Iy4oLaQUig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lmccabe.dbc\\source\\repos\\aNiceApp\\aNiceApp\\aNiceApp\\aNiceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.1874\\xamarin.forms.maps.5.0.0.1874.nupkg.sha512"
+  ],
+  "logs": []
+}

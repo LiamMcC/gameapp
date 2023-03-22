@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aNiceApp.EditProfile"
+             Title="Edit My Profile"
+             >
+    <StackLayout>
+        <StackLayout>
+
+            <Frame HeightRequest="280" BackgroundColor="Blue" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Grid>
+                    <StackLayout BackgroundColor="Black">
+
+                        <Image Source="game6.jfif" HeightRequest="350" Aspect="AspectFill"/>
+                    </StackLayout>
+
+
+                    <StackLayout>
+                        <Label Text="Game Mania" FontSize="60" FontAttributes="Bold" Margin="15,-10, -40, -100" VerticalOptions="CenterAndExpand" TextColor="Red"></Label>
+
+
+                        <StackLayout Orientation="Horizontal" Margin="45, -8, 0, 0">
+
+                            <Label Text="Ph: 01234567" TextColor="Red" FontSize="25" FontAttributes="Bold" VerticalOptions="EndAndExpand"></Label>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Grid>
+
+
+
+
+
+
+            </Frame>
+
+            <Frame HeightRequest="320" BorderColor="Red" BackgroundColor="AliceBlue" WidthRequest="180" Margin="30, 0, 30, 0" CornerRadius="10" >
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="40"/>
+
+
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+
+
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Text="Change Your Details Here"></Label>
+                    <Entry Grid.Row="1" Grid.Column="0" Placeholder="Enter Your Name" x:Name="you"></Entry>
+                    <Button Text="Save"  Grid.Row="2" Clicked="SaveMe" Grid.Column="0"></Button>
+
+
+
+                </Grid>
+
+
+
+
+
+            </Frame>
+
+
+
+            <Frame HeightRequest="50" BorderColor="Red" BackgroundColor="AliceBlue" WidthRequest="180" Margin="30, 0, 30, 0" CornerRadius="10" >
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+
+
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+
+
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="icon1.png" Grid.Row="0" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="HomePageOpen" NumberOfTapsRequired="1"></TapGestureRecognizer>
+
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="icon2.png" Grid.Row="0" Grid.Column="1"></Image>
+                    <Image Source="icon3.png" Grid.Row="0" Grid.Column="2"></Image>
+
+                    
+
+                    <Image Source="icon4.png" Grid.Row="0" Grid.Column="3">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ProfilePageOpen" NumberOfTapsRequired="1"></TapGestureRecognizer>
+
+                        </Image.GestureRecognizers>
+
+
+
+                    </Image>
+
+                </Grid>
+
+            </Frame>
+
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

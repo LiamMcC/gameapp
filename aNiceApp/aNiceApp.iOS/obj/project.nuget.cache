@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5NTBaN/uL57bVqW+H97ilW1u77XC+EnUggrCUty+tvsty3RBA133RF5NIoUyX6O6dBNlLFd6urm8o/78uG1ypA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lmccabe.dbc\\source\\repos\\aNiceApp\\aNiceApp\\aNiceApp.iOS\\aNiceApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\lmccabe.dbc\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.1874\\xamarin.forms.maps.5.0.0.1874.nupkg.sha512"
+  ],
+  "logs": []
+}
